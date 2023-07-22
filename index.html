@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="div1">
+      <br />
+      <h1 class="heading">Calculator</h1>
+      <br />
+      <div class="div2">
+        <label id="label1">Enter a number</label>
+        <br />
+        <input type="number" id="num1" placeholder="Enter a Value" required />
+      </div>
+      <br />
+      <div class="div3">
+        <label>Enter a number</label>
+        <br />
+        <input type="number" id="num2" placeholder="Enter a Value" required />
+      </div>
+      <br />
+      <div class="div4">
+        <button type="button" onclick="add()">Addition</button><br />
+        <p id="ad" class="add"></p>
+        <button type="button" onclick="sub()">subtraction</button>
+        <p id="sub" class="sub"></p>
+        <button type="button" onclick="mul()">Multiplication</button>
+        <p id="mul" class="mul"></p>
+        <button type="button" onclick="div()">Division</button>
+        <p id="div" class="div"></p>
+        <button onclick="mod()">Modulus</button>
+        <p id="mod" class="mod"></p>
+        <br />
+        <script src="script.js"></script>
+      </div>
+    </div>
+  </body>
+</html>
